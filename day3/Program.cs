@@ -15,6 +15,9 @@ namespace day3
             Uc3pertime uc3 = new Uc3pertime();
             uc3.partime();
 
+            Uc4switchcase uc4 = new Uc4switchcase();
+            uc4.Switchwage();
+
 
 
         }
