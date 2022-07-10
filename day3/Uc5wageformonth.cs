@@ -13,9 +13,9 @@ namespace day3
             const int FULLTIME = 1;
             const int PARTTIME = 2;
             const int WAGEPERHOUR = 20;
-            const int WORKINGDAYS = 20;
+            const int WORKINGDAYS = 2;
             int wagemonth = 0;
-            for (int day = 0; day < WORKINGDAYS; day++)
+            for (int day = 0; day < WORKINGDAYS*10; day++)
             {
                 int emphr = 0;
                 int wage = 0;
@@ -35,6 +35,7 @@ namespace day3
 
                 }
                 wage = emphr * WAGEPERHOUR;
+                Console.WriteLine(wage);
                 wagemonth += wage;
             }
             Console.WriteLine("wage for a month is " + wagemonth);
