@@ -21,6 +21,9 @@ namespace day3
             Uc5wageformonth uc5 = new Uc5wageformonth();
             uc5.Wageforamonth();
 
+            Uc6hrsanddays uc6 = new Uc6hrsanddays();
+            uc6.HRsanddays();
+
 
 
         }
