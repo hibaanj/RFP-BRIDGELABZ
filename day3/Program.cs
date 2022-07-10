@@ -12,6 +12,9 @@ namespace day3
             Uc2empwage uc2 = new Uc2empwage();
             uc2.Empwage();
 
+            Uc3pertime uc3 = new Uc3pertime();
+            uc3.partime();
+
 
 
         }
