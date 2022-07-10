@@ -18,6 +18,9 @@ namespace day3
             Uc4switchcase uc4 = new Uc4switchcase();
             uc4.Switchwage();
 
+            Uc5wageformonth uc5 = new Uc5wageformonth();
+            uc5.Wageforamonth();
+
 
 
         }
